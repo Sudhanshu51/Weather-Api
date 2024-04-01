@@ -1,0 +1,51 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="weather.css">
+        </head>
+        <body>
+            <div class="page">
+                <div class="a">
+                    <input id="cityname" type="text" placeholder="Search the weather by city ,pin code or co ordinates">
+                    <button onclick="fetchdetails()" >Search</button>
+                </div>
+                <div class="b">
+                    <div class="main">
+                    <div class="location">
+                        <h1 id="citydetails">📎New York,NY</h1><br>
+                        <p id="date">🗓️Monday,August  28,2023</p><br>
+                    </div>
+                    <div class="flex1">
+
+                    
+                    <div class="img">
+                        <img height=80px src="./iconsthermo.png" alt="">
+                    </div>
+                    <div class="icon">
+                        
+                        
+                        <h1 id="tempreature">
+                            45 <sup>o</sup> C☀️
+                        </h1>
+                    </div>
+                </div>
+                    <div class="sunny">
+                        <p id="icon"> 🌤️Sunny</p><br>
+                    </div>
+                    <div class="feel">
+                        <p id="temp">🔥Feel like 77F</p><br>
+                        <p id="humid">🫧Humidity 60%</p><br>
+                        <p id="wind">🌫️Wind 10mph E</p><br>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+            <script src="weather.js"></script>
+            
+        </body>
+        </html>
